@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" name="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.227" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter\target\test-classes;C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter\target\classes;C:\Users\Myself\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Myself\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Myself\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\Myself\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Myself\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\Myself\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\Myself\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Myself\.m2\repository\junit\junit\4.12\junit-4.12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_192\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Myself\AppData\Local\Temp\surefire1693073288943386200\surefirebooter2125498625099577737.jar C:\Users\Myself\AppData\Local\Temp\surefire1693073288943386200 2019-04-02T11-08-18_367-jvmRun1 surefire2750986098396787604tmp surefire_049844061807707141tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter\target\test-classes;C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter\target\classes;C:\Users\Myself\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Myself\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Myself\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\Myself\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Myself\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\Myself\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\Myself\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\Myself\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\Myself\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Myself\.m2\repository\junit\junit\4.12\junit-4.12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Myself"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_192\jre"/>
+    <property name="basedir" value="C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Myself\AppData\Local\Temp\surefire1693073288943386200\surefirebooter2125498625099577737.jar"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_192\jre\lib\resources.jar;C:\Java\jdk1.8.0_192\jre\lib\rt.jar;C:\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_192\jre\lib\jsse.jar;C:\Java\jdk1.8.0_192\jre\lib\jce.jar;C:\Java\jdk1.8.0_192\jre\lib\charsets.jar;C:\Java\jdk1.8.0_192\jre\lib\jfr.jar;C:\Java\jdk1.8.0_192\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_192-b12"/>
+    <property name="user.name" value="Myself"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_192\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Myself\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Myself\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_192"/>
+    <property name="user.dir" value="C:\Users\Myself\Downloads\Assignment3 (1)\assignment3-starter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_192\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Java/jdk1.8.0_192/bin/../jre/bin/server;C:/Java/jdk1.8.0_192/bin/../jre/bin;C:/Java/jdk1.8.0_192/bin/../jre/lib/amd64;C:\Java\jdk1.8.0_192\bin;H:\app\OracleUser\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;H:\app\Myself\product\11.2.0\dbhome_1\bin;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;&quot;C:\Users\Myself\AppData\Local\Microsoft\WindowsApps;&quot;;C:\apache-maven-3.0.4\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;&quot;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\&quot;;H:\setups maven tomcat and payara\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\Myself\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Myself\AppData\Local\Programs\Python\Python37-32\;C:\Users\Myself\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Myself\AppData\Local\GitHubDesktop\bin;C:\Users\Myself\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.2\bin;;C:\Users\Myself\AppData\Roaming\npm;C:\Users\Myself\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Myself\cst8277-eclipse4\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.192-b12"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_192\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test_bc_deletingEmpDeleteProAlso" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.015"/>
+  <testcase name="test_bc_deletingProjDoesNotDeleteEmp" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0"/>
+  <testcase name="test_bab_updatingProjectDescription" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.016"/>
+  <testcase name="test_bc_NumberOfProjectThat_empG_workOn" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.016"/>
+  <testcase name="test_bc_whatIsThePhoneNumberOfThePersonWhoWorkOnProW" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.031"/>
+  <testcase name="test_criteria_first_emp_project" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0"/>
+  <testcase name="test_b_create_projectWhileEmpIsNull" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0"/>
+  <testcase name="test_get_NumberOFEmpWhoWorkOn_F_Project" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.018"/>
+  <testcase name="test_getProjects_by_employee" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.032"/>
+  <testcase name="test_l_updatingTheProjectName" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.005"/>
+  <testcase name="test_baa_findingProjectUsingLike" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.013"/>
+  <testcase name="test_baa_deletingProject" classname="com.algonquincollege.cst8277.models.Employee_d_ProjectsTestSuite" time="0.002"/>
+</testsuite>
