@@ -24,7 +24,7 @@
     <project.source.level>1.8</project.source.level>
     <project.target.level>1.8</project.target.level>
     <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
-    <maven.processor.plugin.version>3.2.0</maven.processor.plugin.version>
+    <maven.processor.plugin.version>2.1.0</maven.processor.plugin.version>
     <maven.build.helper.plugin.version>3.0.0</maven.build.helper.plugin.version>
     <maven.surefire.plugin.version>3.0.0-M3</maven.surefire.plugin.version>
     <maven.site.plugin.version>3.7.1</maven.site.plugin.version>
